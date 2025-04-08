@@ -26,7 +26,7 @@ const loginAdmin = async (req, res) => {
 
 // Generate JWT
 const generateToken = (email) => {
-    return jwt.sign({ email }, process.env.JWT_SECRET, {
+    return jwt.sign({ email }, "hari", {
         expiresIn: '30d',
     });
 };
