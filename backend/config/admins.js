@@ -4,8 +4,8 @@ const bcrypt = require('bcryptjs');
 // To generate: bcrypt.hashSync('yourpassword', 10)
 const admins = [
     {
-        email: "admin1@college.edu",
-        password: "$2a$10$N9qo8uLOickgx2ZMRZoMy.Mr6sfYZ7J8q0q3jR6F5.2Tj7O0lFqK2" // hashed "admin123"
+       email: 'admin3@college.edu',
+  password: '$2b$10$BpRzz.Meq5frrgUHES2jmOZXMScR9460xgpfkfqfhTNcCnxNn.TsW'
     },
     {
         email: "admin2@college.edu",
